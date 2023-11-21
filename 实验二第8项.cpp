@@ -4,15 +4,15 @@ using namespace std;
 
 int main() {
 	double a,b=0;
-	cout << "请输入a的值：";
+	cout << "璇疯緭鍏鐨勫�硷細";
 	cin >> a;
 	for(double x=a; ; )
 	{ 
 		b = x;
 		x =  (x + a / x)/2;
-		if ( abs( b - x ) < 5 )
+		if ( abs( b - x ) < 0.00001 )
 		{
-			cout <<"求得平方根为"<< x << endl;
+			cout <<"姹傚緱骞虫柟鏍逛负"<< x << endl;
 			return 0;
 		}
 	}
